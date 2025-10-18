@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,35 +7,57 @@
   </head>
   <body>
     <form>
-      <input  type="text" placeholder="apna nam batao" required="true" />
+      <!-- comment ki shortcut key hy ctrl + / -->
+      <label for="username"> name: </label>
+      <br />
+
+      <!-- agar koi input fill karna lazmi ho
+       tw required true kareyn gye -->
+      <input
+        type="text"
+        id="username"
+        placeholder="apna nam batao"
+        required="true"
+      />
+      <br />
+      <br />
+
+      <label> email: </label>
+      <br />
       <input type="email" placeholder="Enter your email" required="true" />
+      <br />
+      <br />
       <input type="password" placeholder="Enter your password" />
+      <br />
       <button type="submit">jama karwao form</button>
     </form>
 
-
-    <hr>
+    <hr />
     <!-- <input type="file" accept="image/*"> -->
 
-<form>
-<input type="radio" name="gender">male
-<input type="radio" name="gender">female
-<hr>
-Choose your subject:
-<input type="checkbox" name="subjects"> computer
-<input type="checkbox" name="subjects"> maths
-<input type="checkbox" name="subjects"> english
-<input type="checkbox" name="subjects"> science
-<input type="checkbox" name="subjects"> physics
+    <form>
+      <input type="radio" name="gender" id="male" />
+      <label for="male"> male </label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female"> female </label>
+      <hr />
+      Choose your subject:
+      <input type="checkbox" name="subjects" /> computer
+      <input type="checkbox" name="subjects" /> maths
+      <input type="checkbox" name="subjects" /> english
+      <input type="checkbox" name="subjects" /> science
+      <input type="checkbox" name="subjects" /> physics
 
-<hr>
-<select>
-  <option value="khi">City is lights</option>
-  <option value="">lahore</option>
-  <option value="">Islamabad</option>
-</select>
+      <hr />
 
-</form>
+      <!-- dropdown -->
+      <select id="test2">
+        <option value="khi">City is lights</option>
+        <option value="">lahore</option>
+        <option value="">Islamabad</option>
+      </select>
+    </form>
 
+    <div>shehzad</div>
   </body>
 </html>
