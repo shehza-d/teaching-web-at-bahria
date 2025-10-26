@@ -1,0 +1,14 @@
+h1 {
+  color: red;
+  background-color: chartreuse;
+}
+
+/* (dot) . is for class */
+.first-para {
+  color: purple;
+}
+
+.second-para {
+  color: orange;
+  background-color: yellow;
+}
