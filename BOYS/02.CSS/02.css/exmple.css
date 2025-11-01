@@ -1,0 +1,22 @@
+/* External CSS */
+
+body {
+	background-color: ;
+}
+h1 {
+  color: red;
+  color: orange !important;
+  color: blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: aqua;
+}
+
+/* 
+1. Inline CSS (opening tag ma style ky attribute ky sath)
+2. Internal CSS (html ma style ky tag ky sath)
+3. External CSS (recommended) (alag file wali)
+*/
+
+/* abdullah
+usman */

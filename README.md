@@ -13,7 +13,7 @@ Code will be updated after each class.
 
 ---
 
-## 📅 Syllabus (6 Months, 2 Classes/Week → 48 Sessions)
+## 📅 Syllabus (8 Months, 2 Classes/Week → 48 Sessions)
 
 ---
 
@@ -32,7 +32,10 @@ Code will be updated after each class.
 
 ### **Month 2 – CSS**
 
-- [ ] **Class 5–6:** CSS basics (selectors, box model).
+- [ ] **Class 5–6:** CSS basics (selectors, , cascading, inheritance).
+- [ ]  text per ak class how to use google fonts 
+- [ ]  box model chp 13
+- [ ]  Layout Position
 - [ ] **Class 7–8:** Flexbox (responsive).
 - [ ] **Class 9–10:** Media queries, animations, CSS variables.
 - [ ] **Class 15–16:** SQL basics (SELECT, INSERT, UPDATE, DELETE).
@@ -65,6 +68,8 @@ Code will be updated after each class.
 ---
 
 ### **Month 5 – React (Core)**
+
+
 
 - [ ] **Class 33–34:** Components, JSX, props.
 - [ ] **Class 35–36:** State & events.
