@@ -1,0 +1,21 @@
+div {
+  color: white;
+  background-color: purple;
+  border: 5px solid red;
+}
+/* * {
+	border: inherit;
+} */
+
+.my-word {
+  color: red;
+  text-transform: uppercase;
+}
+
+h1 {
+	letter-spacing: 20px;
+}
+p {
+	/* letter-spacing: 20px; */
+	word-spacing: 20px;
+}

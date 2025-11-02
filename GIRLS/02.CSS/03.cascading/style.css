@@ -1,19 +1,34 @@
+/* this selects every/all elements */
+* {
+  /* text-transform: uppercase; */
+}
+
 body {
-	background-color: green;
+  background-color: antiquewhite;
 }
 
 h1 {
-  color: blue;
-  color: red;
-  color: orange;
+  color: green;
+  color: rgb(61, 61, 195);
 }
-
-
-
-
-
-
 
 .my-heading {
-	color: red;
+  color: red;
 }
+
+.my-word {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h2.bahria {
+  color: green;
+}
+
+/* # is for ID */
+#testing {
+  text-decoration: underline;
+}
+
+/* Child Selector */

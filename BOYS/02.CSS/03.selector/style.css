@@ -1,0 +1,26 @@
+* {
+	/* color: green; */
+	text-transform: uppercase;
+}
+
+h1 {
+	/*            x   y  */
+	text-shadow: 3px 3px 10px blue;
+}
+
+a {
+	/* color: green; */
+}
+
+.test {
+	background-color: black;
+}
+
+/* # is for ID */
+#bahria {
+    /* background-color: purple; */
+}
+
+p > a {
+	background-color: aquamarine;
+}
