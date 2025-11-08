@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
+
+* {
+  font-family: "Michroma", sans-serif;
+}
+
+.urdu-text {
+  font-family: "Noto Nastaliq Urdu";
+}
+
+h1 {
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 5px;
+  font-family: "Lavishly Yours";
+}
+
+p {
+  font-size: 12px;
+  /* line-height: 40px; */
+  /* letter-spacing: 10px; */
+  /* word-spacing: 20px; */
+  text-align: justify;
+  text-indent: 30px;
+}
+
+p:hover {
+  /* color: red; */
+  background-color: rgb(184, 182, 182);
+}
+
+button {
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: orange;
+  transition: all 300ms;
+}
+
+button:hover {
+  font-size: 15px;
+  background-color: rgb(255, 199, 94);
+}
