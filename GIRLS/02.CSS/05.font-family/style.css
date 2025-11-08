@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=swap");
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+  color: blue;
+  font-family: "Permanent Marker";
+}
+
+.urdu-text {
+  font-family: "Noto Nastaliq Urdu";
+}
+
+p {
+  font-family: "Monsieur La Doulaise", cursive, sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+}
+/* Pg 283 */
