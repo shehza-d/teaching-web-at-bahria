@@ -1,0 +1,40 @@
+h1 {
+  /* border: 2px solid red; */
+
+  margin: 20px;
+
+  padding: 20px;
+  box-shadow: 10px 10px 50px rgb(214, 212, 212);
+}
+h1:hover {
+  box-shadow: 10px 10px 50px rgb(225, 228, 61);
+}
+
+/* p {
+	margin: 0;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	padding: 60px;
+} */
+
+button {
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 50px;
+  border: none;
+
+  padding: 20px;
+}
+
+/* div {
+	border: 10px solid red;
+	margin: 15px;
+	padding: 15px;
+}
+
+p {
+	text-align: justify;
+} */
+
+/* https://getcssscan.com/css-buttons-examples */

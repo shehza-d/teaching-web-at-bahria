@@ -1,0 +1,26 @@
+h1 {
+  border: 2px solid green;
+  padding: 50px;
+  margin: 50px;
+
+  /* background-color: plum; */
+}
+
+/* https://chromewebstore.google.com/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en */
+
+button {
+  background-color: #185abc;
+  color: white;
+  border: none;
+
+  padding-top: 20px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 20px;
+
+  border-radius: 32px;
+}
+
+p {
+  /* margin: 0px; */
+}
