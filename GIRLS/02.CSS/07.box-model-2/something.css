@@ -1,0 +1,24 @@
+div {
+  margin: 50px;
+  border: 2px solid red;
+}
+
+h1 {
+  color: purple;
+}
+
+p {
+  border: 2px solid red;
+  /* background-color: aquamarine; */
+
+  width: 50%;
+  min-width: 450px;
+
+  height: 200px;
+
+  overflow: scroll;
+}
+
+.my-image {
+  width: 300px;
+}

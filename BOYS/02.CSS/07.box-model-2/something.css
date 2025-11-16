@@ -1,0 +1,53 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: pink;
+}
+
+p {
+  border: 2px solid red;
+  /* width: 1200px; */
+
+  /* height: 1000px; */
+
+  /* max-width: 400px; */
+  /* min-width: 400px; */
+
+  /* overflow: hidden; */
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  background-color: aquamarine;
+  padding: 7px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.my-class-1 {
+  /* visibility: hidden; */
+  /* display: none; */
+}
+
+div {
+  border: 2px solid red;
+  width: 300px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.my-circle {
+  border: 2px solid red;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 5000px;
+}
