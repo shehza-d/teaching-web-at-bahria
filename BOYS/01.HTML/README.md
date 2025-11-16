@@ -8,7 +8,6 @@
    https://code.visualstudio.com/download
 
 1. In `this pc`
-
    - [x] hidden items
    - [x] file name extension
 

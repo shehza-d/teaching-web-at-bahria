@@ -1,26 +1,26 @@
 * {
-	/* color: green; */
-	text-transform: uppercase;
+  /* color: green; */
+  text-transform: uppercase;
 }
 
 h1 {
-	/*            x   y  */
-	text-shadow: 3px 3px 10px blue;
+  /*            x   y  */
+  text-shadow: 3px 3px 10px blue;
 }
 
 a {
-	/* color: green; */
+  /* color: green; */
 }
 
 .test {
-	background-color: black;
+  background-color: black;
 }
 
 /* # is for ID */
 #bahria {
-    /* background-color: purple; */
+  /* background-color: purple; */
 }
 
 p > a {
-	background-color: aquamarine;
+  background-color: aquamarine;
 }

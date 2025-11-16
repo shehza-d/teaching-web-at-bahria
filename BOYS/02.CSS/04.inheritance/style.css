@@ -13,9 +13,9 @@ div {
 }
 
 h1 {
-	letter-spacing: 20px;
+  letter-spacing: 20px;
 }
 p {
-	/* letter-spacing: 20px; */
-	word-spacing: 20px;
+  /* letter-spacing: 20px; */
+  word-spacing: 20px;
 }
