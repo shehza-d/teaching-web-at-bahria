@@ -1,0 +1,40 @@
+.container {
+  background-color: bisque;
+  min-height: 80vh;
+  border: 5px solid black;
+  /* margin: 2px; */
+  padding: 2px;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 2px solid brown;
+  margin: 2px;
+  padding: 2px;
+  color: white;
+}
+
+#box1 {
+  background-color: aqua;
+}
+#box2 {
+  background-color: blue;
+}
+#box3 {
+  background-color: orange;
+}
+#box4 {
+  background-color: brown;
+}
+
+/*  */
+
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  /* flex-wrap: wrap; */
+
+  /* gap: 30px; */
+}

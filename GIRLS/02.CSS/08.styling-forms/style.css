@@ -1,0 +1,36 @@
+table {
+  margin: auto;
+
+  width: 800px;
+
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid green;
+}
+
+th {
+  background-color: greenyellow;
+}
+
+input {
+  color: rgb(49 64 84);
+  padding: 8px;
+  width: 400px;
+  font-size: 20px;
+  background-color: rgb(229, 228, 228);
+  border: 1px solid rgb(156, 163, 175);
+  border-radius: 4px;
+}
+
+input:focus {
+  outline-color: greenyellow;
+}
+
+input::placeholder {
+  color: rgb(129, 129, 129);
+}

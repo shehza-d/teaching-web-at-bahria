@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+ol {
+  list-style-type: upper-roman;
+}
+
+.my-input {
+  /* color: white; */
+  border: none;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  width: 70%;
+  border-radius: 60px;
+  background-color: rgb(220, 220, 220);
+}
+
+.my-input:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.my-icons {
+  margin-right: -30px;
+  /* margin-top: -50px; */
+  position: relative;
+  z-index: 1;
+}
+
+.my-input:focus{
+	outline: none;
+	border: 1px solid green;
+}
+
