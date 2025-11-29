@@ -30,11 +30,13 @@
 
 /*  */
 
-
 .container {
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row; */
   /* flex-wrap: wrap; */
 
-  /* gap: 30px; */
+  gap: 20px;
+
+  justify-content: space-between;
+  align-items: stretch;
 }
