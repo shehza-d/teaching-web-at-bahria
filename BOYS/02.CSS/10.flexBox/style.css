@@ -11,29 +11,48 @@
   border: 2px solid brown;
   margin: 2px;
   padding: 2px;
+
+  color: white;
+  font-size: 25px;
 }
 
 #box1 {
   background-color: aqua;
+  color: black;
+  /* flex-grow: 1; */
+  
 }
 #box2 {
   background-color: blue;
+  /* order: 9999; */
+  /* flex-grow: 2; */
+  flex-shrink: 2;
 }
 #box3 {
   background-color: orange;
+  /* order: -1; */
+  /* flex-grow: 2; */
+  flex-shrink: 3;
+
 }
 #box4 {
   background-color: brown;
+  /* flex-grow: 1; */
+
 }
 
 /*  */
 
 .container {
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: column; */
   /* flex-wrap: wrap; */
-  justify-content: space-evenly;
-  align-items: center;
-  /* align-content: center; */
-  /* gap: 50px; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  /* align-content: center;  */
+  /* align-content flex wrap ky baghir kam nhi karta */
+
+  gap: 5px;
+  /* row-gap: 50px;
+  column-gap: 30px; */
 }
