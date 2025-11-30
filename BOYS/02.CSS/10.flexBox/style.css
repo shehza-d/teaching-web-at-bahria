@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .container {
   background-color: bisque;
   min-height: 80vh;
@@ -20,13 +24,15 @@
   background-color: aqua;
   color: black;
   /* flex-grow: 1; */
-  
 }
 #box2 {
   background-color: blue;
   /* order: 9999; */
   /* flex-grow: 2; */
   flex-shrink: 2;
+
+  /* align-self: center;  */
+  /* kisi ak box ki position change karne ky liye */
 }
 #box3 {
   background-color: orange;
@@ -34,11 +40,13 @@
   /* flex-grow: 2; */
   flex-shrink: 3;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #box4 {
   background-color: brown;
   /* flex-grow: 1; */
-
 }
 
 /*  */
@@ -55,4 +63,18 @@
   gap: 5px;
   /* row-gap: 50px;
   column-gap: 30px; */
+}
+
+.pak {
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.pak a {
+  text-decoration: none;
 }
