@@ -29,8 +29,7 @@ ol {
   z-index: 1;
 }
 
-.my-input:focus{
-	outline: none;
-	border: 1px solid green;
+.my-input:focus {
+  outline: none;
+  border: 1px solid green;
 }
-
