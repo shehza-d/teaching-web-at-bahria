@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+.heading {
+  border: 2px solid red;
+  position: sticky;
+  top: 0px;
+}
+
+.one-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
