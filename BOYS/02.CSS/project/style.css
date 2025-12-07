@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  border: 2px solid red;
+  height: 140px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  list-style: none;
+  border: 2px solid red;
+
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17.16px;
+  color: black;
+}
+
+.links button {
+  border-radius: 5.95px;
+  background-color: #75bf7a;
+  color: white;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+}
+
+.main-hero-section {
+  display: flex;
+  height: 70vh;
+}
+.section-one {
+  border: 6px solid green;
+  /* flex-grow: 1; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.section-two {
+  border: 6px solid purple;
+  /* flex-grow: 1; */
+  width: 50%;
+}
+
+.section-one h2 {
+  font-weight: 800;
+  font-size: 60.73px;
+}
+.section-one p {
+  font-weight: 500;
+  font-size: 24px;
+  color: #9e9da2;
+}
+
+.section-one button {
+  font-size: 24px;
+  font-weight: 800;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
