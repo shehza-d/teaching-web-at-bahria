@@ -1,92 +1,105 @@
-# Web Development Class Code (2025-26)
+# Web Development Class Code Repository (2025-2026)
 
-This repository contains the code written during classes.  
-Each folder is organized by week/topic.
+This repository serves as the central hub for all code, examples, and class materials generated throughout the **Web Development Course (2025-2026)**.
 
-Code will be updated after each class.
-
-## Important task
-
-1. Visit class code repo (this) after each class
-2. Attendance 100%
-3. Assignments (on time)
+The content is organized into folders corresponding to the weekly sessions and major topics covered. Code is committed and updated promptly following each class session.
 
 ---
 
-## 📅 Syllabus (8 Months, 2 Classes/Week → 48 Sessions)
+## Student Responsibilities & Key Expectations
+
+To ensure success in this course, all students are expected to adhere to the following key professional standards:
+
+1.  **Repository Engagement:** Visit and pull the latest code updates from this repository after every class session.
+2.  **Attendance:** Maintain **100% attendance**.
+3.  **Assignments:** Submit all assigned tasks and projects **on time**.
 
 ---
 
-### **Month 1 – HTML + Git**
+## Course Syllabus: 8-Month Comprehensive Program
 
-- [x] **Class 1–2:** Web basics (how web works, dev tools).
-- [x] **Class 3–5:** HTML essentials (text,lists,links).
-- [x] **Class 6-7:** Git & GitHub (clone, commit, push, pull, branching).
-- [x] **Class 8:** HTML (Images,Tables)
-- [x] **Class 9:** HTML (Forms)
-- [x] **Class 10:** HTML (iframes, audio, video)
+This program spans 8 months, consisting of **48 sessions** (2 classes per week).
 
-**Mini Project:** Personal homepage with hosted link (CV).
+### Month 1 – HTML Fundamentals & Version Control (Git)
 
----
+| Class | Status | Topics Covered |
+| :---: | :----: | :--- |
+| **1–2** | **[x]** | Web Basics (How the Web Works, Developer Tools Introduction) |
+| **3–5** | **[x]** | HTML Essentials (Text Formatting, Lists, Hyperlinks) |
+| **6–7** | **[x]** | **Git & GitHub** (Clone, Commit, Push, Pull, Branching Fundamentals) |
+| **8** | **[x]** | HTML Structure (Images, Tables) |
+| **9** | **[x]** | HTML Forms |
+| **10** | **[x]** | HTML Media (iFrames, Audio, Video) |
 
-### **Month 2 – CSS**
-
-- [ ] **Class 5–6:** CSS basics (selectors, , cascading, inheritance).
-- [ ] text per ak class how to use google fonts
-- [ ] box model chp 13
-- [ ] Layout Position
-- [ ] **Class 7–8:** Flexbox (responsive).
-- [ ] **Class 9–10:** Media queries, animations, CSS variables.
-- [ ] **Class 15–16:** SQL basics (SELECT, INSERT, UPDATE, DELETE).
-
-**Mini Project:** Responsive landing page, push to GitHub.
+> **Mini Project:** Personal Homepage / Digital CV, deployed with a hosted link.
 
 ---
 
-### **Month 3 – JavaScript Basics**
+### Month 2 – Cascading Style Sheets (CSS)
 
-- [ ] **Class 17–18:** JS fundamentals (variables, operators, loops).
-- [ ] **Class 19–20:** Functions, arrays, objects.
-- [ ] **Class 21–22:** DOM manipulation.
-- [ ] **Class 23–24:** Forms validation + ES6 features.
+| Class | Status | Topics Covered |
+| :---: | :----: | :--- |
+| **11–12** | [ ] | CSS Basics (Selectors, Specificity, Cascading, Inheritance) |
+| **13** | [ ] | Text Styling & Google Fonts Integration |
+| **14** | [ ] | **The Box Model** (Chapter 13) |
+| **15** | [ ] | Layout and Positioning Schemes |
+| **16–17** | [ ] | **Flexbox** (Building Responsive Layouts) |
+| **18–19** | [ ] | Media Queries, CSS Animations, and CSS Variables |
+| **20** | [ ] | **SQL Basics** (SELECT, INSERT, UPDATE, DELETE) *(Note: This is a standalone introductory session)* |
 
-**Mini Project:** To-Do List app.
-
----
-
-### **Month 4 – Modern JavaScript + APIs**
-
-- [ ] **Class 25–26:** Event handling + localStorage.
-- [ ] **Class 27–28:** Fetch API + JSON.
-- [ ] **Class 29:** Modules + best practices (1 session instead of 2).
-- [ ] **Class 30:** LeetCode intro (basic problem solving, arrays/loops).
-- [ ] **Class 31–32:** Supabase basics (DB setup, connect with React).
-
-**Mini Project:** Weather app with Fetch API.
+> **Mini Project:** Responsive Landing Page, deployed via GitHub Pages.
 
 ---
 
-### **Month 5 – React (Core)**
+### Month 3 – JavaScript Basics & DOM Manipulation
 
-- [ ] **Class 33–34:** Components, JSX, props.
-- [ ] **Class 35–36:** State & events.
-- [ ] **Class 37–38:** Lists, keys, conditional rendering.
-- [ ] **Class 39–40:** Forms, lifting state.
+| Class | Status | Topics Covered |
+| :---: | :----: | :--- |
+| **21–22** | [ ] | JS Fundamentals (Variables, Operators, Control Structures/Loops) |
+| **23–24** | [ ] | Functions, Arrays, and Objects |
+| **25–26** | [ ] | **DOM Manipulation** (Interacting with the Web Page) |
+| **27–28** | [ ] | Forms Validation and Introduction to ES6 Features |
 
-**Mini Project:** Notes app in React.
+> **Mini Project:** Interactive To-Do List Application.
+
+---
+
+### Month 4 – Modern JavaScript & APIs
+
+| Class | Status | Topics Covered |
+| :---: | :----: | :--- |
+| **29–30** | [ ] | Event Handling and Client-Side Storage (`localStorage`) |
+| **31–32** | [ ] | **Fetch API** and Working with JSON Data |
+| **33** | [ ] | JS Modules and Code Best Practices |
+| **34** | [ ] | LeetCode Introduction (Basic Problem Solving with Arrays/Loops) |
+| **35–36** | [ ] | **Supabase Basics** (Database Setup and Initial Connection) |
+
+> **Mini Project:** Weather Application utilizing a Public Fetch API.
 
 ---
 
-### **Month 6 – React Advanced + Career Skills**
+### Month 5 – React Framework (Core Concepts)
 
-- [ ] **Class 41–42:** Hooks (useState, useEffect).
-- [ ] **Class 43–44:** Routing + API with Supabase.
-- [ ] **Class 45:** Deployment (Vercel/Netlify).
-- [ ] **Class 46:** React Native intro.
-- [ ] **Class 47:** React Native styling & navigation basics.
-- [ ] **Class 48:** LinkedIn basics + portfolio setup + project showcase.
+| Class | Status | Topics Covered |
+| :---: | :----: | :--- |
+| **37–38** | [ ] | Components, JSX Syntax, and Props |
+| **39–40** | [ ] | Component State Management and Event Handling |
+| **41–42** | [ ] | Working with Lists, Keys, and Conditional Rendering |
+| **43–44** | [ ] | Handling Forms and **Lifting State Up** |
 
-**Final Project:** **Taskify (Task Manager App)** with Supabase (web) + mini React Native extension.
+> **Mini Project:** Basic Notes Application built with React.
 
 ---
+
+### Month 6 – React Advanced & Professional Development
+
+| Class | Status | Topics Covered |
+| :---: | :----: | :--- |
+| **45–46** | [ ] | React Hooks (`useState`, `useEffect`) |
+| **47–48** | [ ] | React Routing and Advanced API Integration with Supabase |
+| **49** | [ ] | Deployment Strategies (Vercel/Netlify) |
+| **50** | [ ] | React Native Introduction |
+| **51** | [ ] | React Native Styling and Basic Navigation |
+| **52** | [ ] | Career Development (LinkedIn Best Practices, Portfolio Setup, Project Showcase) |
+
+> **Final Project:** **Taskify (Task Manager Application)** – A full-stack web application using React and Supabase, including a simplified React Native mobile extension.
