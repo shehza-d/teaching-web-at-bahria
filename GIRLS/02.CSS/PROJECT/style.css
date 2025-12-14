@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 140px;
+}
+
+.header > div {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+}
+
+img {
+  width: 180px;
+}
+
+a {
+  font-weight: 500;
+  font-size: 17.16px;
+  color: black;
+  text-decoration: none;
+}
+
+.help-btn {
+  background-color: #75bf7a;
+  color: white;
+  border: none;
+  border-radius: 5.95px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.hero-section {
+  display: flex;
+
+  height: 70vh;
+}
+
+.section-one {
+  border: 2px solid red;
+  width: 50%;
+}
+.section-two {
+  border: 2px solid green;
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.section-two > img {
+  width: 500px;
+}
+
+.my-button {
+  font-size: 24.6px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-weight: 800;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  /* border: 10px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.my-button > img {
+  width: 45px;
+}
+
+.buttons-ki-div {
+  display: flex;
+  justify-content: space-around;
+}
