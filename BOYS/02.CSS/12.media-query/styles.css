@@ -1,0 +1,17 @@
+
+body {
+  background-color: #91c6bc;
+}
+
+/* agar website ki width 500 se zada ho tw ye styling laga dena */
+@media (min-width: 500px) {
+  body {
+    background-color: #ef7722;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: #b8db80;
+  }
+}

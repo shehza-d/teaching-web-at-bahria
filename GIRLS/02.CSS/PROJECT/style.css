@@ -11,10 +11,13 @@
 /* ctrl + D */
 
 body {
-  /* background-color: rgb(227, 226, 226); */
+  background-color: #f9f9f9;
 }
 
 .header {
+  padding-left: 80px;
+  padding-right: 80px;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,6 +57,8 @@ a {
 }
 
 .hero-section {
+  margin-left: 80px;
+  margin-right: 80px;
   display: flex;
 
   height: 70vh;
@@ -203,12 +208,13 @@ a {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: end;
+  justify-content: space-evenly;
 }
 
 .mobile-section-two {
   /* width: 33%; */
+
   flex-grow: 1;
 
   display: flex;
@@ -231,7 +237,6 @@ a {
 
 .option {
   width: 300px;
-
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -256,51 +261,68 @@ a {
 }
 
 .all-benefits {
-  margin-top: 52px;
-  margin-bottom: 52px;
   display: flex;
   flex-direction: column;
+
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 52px;
+  margin-bottom: 52px;
+
   gap: 56px;
 }
 .benefit {
-  /* border: 2px solid red; */
+  background-color: rgb(224, 248, 214);
+
   height: 304px;
   width: 80%;
-  background-color: rgb(224, 248, 214);
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .benefit-right {
   align-self: flex-end;
 }
 
-.benefit  h4 {
+.benefit h4 {
   font-size: 33.94px;
   font-weight: 600;
 }
 
-.benefit  span {
+.benefit span {
   font-size: 88px;
   font-weight: 500;
   color: var(--theme-color);
 }
 
-.benefit  p {
+.benefit p {
   color: var(--light-text-color);
-font-size: 22px;
-/* font-weight: ; */
+  font-size: 22px;
 }
 .benefit img {
   width: 256.79px;
 }
 
 .benefit div {
-  /* border: 2px solid red; */
   width: 380px;
+}
+
+footer {
+  height: 300px;
+  display: flex;
+}
+
+footer > div {
+  width: 25%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
