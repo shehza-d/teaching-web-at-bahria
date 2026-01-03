@@ -309,5 +309,6 @@ footer > div {
   gap: 16px;
 }
 .footer-btn {
-  flex-direction: column; gap: 20px;
+  flex-direction: column;
+  gap: 20px;
 }

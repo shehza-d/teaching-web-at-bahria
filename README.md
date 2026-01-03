@@ -131,7 +131,7 @@ Here’s a clean, practical list of **CSS topics** you should teach in a web dev
 
 ### **11. Responsive Design**
 
-- Mobile-first approach   (safe view [img 1](https://cdn.dribbble.com/userupload/25916613/file/original-dd65ad1d9d4b5345a9546c729a0d82ca.png) | [img 2](https://www.practicalecommerce.com/wp-content/uploads/2018/02/thumb-zone-mapping.png))
+- Mobile-first approach (safe view [img 1](https://cdn.dribbble.com/userupload/25916613/file/original-dd65ad1d9d4b5345a9546c729a0d82ca.png) | [img 2](https://www.practicalecommerce.com/wp-content/uploads/2018/02/thumb-zone-mapping.png))
 - Media queries (`min-width` / `max-width`)
 - Breakpoints
 - Responsive units (%, vw/vh, rem)
