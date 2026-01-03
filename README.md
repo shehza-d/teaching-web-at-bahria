@@ -162,7 +162,7 @@ Here’s a clean, practical list of **CSS topics** you should teach in a web dev
 
 ### **15. Shadows**
 
-- box-shadow
+- [box-shadow](https://getcssscan.com/css-box-shadow-examples)
 - text-shadow
 
 ### **16. Overflow**
