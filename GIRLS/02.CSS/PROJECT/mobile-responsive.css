@@ -15,25 +15,25 @@ body {
 }
 
 .header {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  height: 140px;
+  height: 90px;
   background-color: white;
 }
 
 .header > div {
-  display: flex;
+  display: none;
   gap: 46px;
   align-items: center;
 }
 
-img {
-  width: 180px;
+.header > img {
+  width: 110px;
 }
 
 a {
@@ -58,15 +58,15 @@ a {
 
 .hero-section {
   padding-top: 20px;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
   display: flex;
+  flex-direction: column;
 
   height: 70vh;
 }
 
 .section-one {
-  width: 50%;
 
   display: flex;
   flex-direction: column;
@@ -74,7 +74,8 @@ a {
   justify-content: end;
 }
 .section-one h2 {
-  font-size: 60.73px;
+  font-size: 34.89px;
+  text-align: center;
   font-weight: 800;
 }
 
@@ -85,14 +86,12 @@ a {
 }
 
 .section-two {
-  width: 50%;
-
   display: flex;
   justify-content: center;
 }
 
 .section-two > img {
-  width: 500px;
+  width: 100%;
 }
 
 .my-button {
@@ -326,4 +325,47 @@ footer > div {
   justify-content: center;
   flex-direction: column;
   gap: 15px;
+}
+
+.menu-icon {
+  font-size: 25px;
+}
+
+@media (min-width: 1000px) {
+  /* ye desktop screen ki css hy */
+  .menu-icon {
+    display: none !important;
+    /* font-size: 25px; */
+  }
+
+  .header {
+    height: 140px;
+
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .header > div {
+    display: flex;
+  }
+
+  .hero-section {
+    flex-direction: row;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .section-one {
+    width: 50%;
+  }
+  .section-two {
+    width: 50%;
+  }
+  .section-one h2 {
+    text-align: left;
+    font-size: 60.73px;
+  }
+
+  .section-two > img {
+    width: 500px;
+  }
 }
