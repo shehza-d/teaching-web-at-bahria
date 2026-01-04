@@ -30,111 +30,106 @@ Code will be updated after each class.
 
 ---
 
-### **Month 2 – CSS**
-
-Here’s a clean, practical list of **CSS topics** you should teach in a web development course — in the right order so students actually learn smoothly.
-
----
-
-# **📌 Core CSS Topics (Must Teach)**
+### **Month 2 – Core CSS Topics**
 
 ### **1. CSS Basics**
 
-- What is CSS?
-- Inline, internal, external CSS
-- Selectors (element, class, id)
-- Comments
-- CSS syntax (property, value)
+- [x] What is CSS?
+- [x] Inline, internal, external CSS
+- [x] Selectors (element, class, id)
+- [x] Comments
+- [x] CSS syntax (property, value)
 
 ### **2. Selectors (Foundational)**
 
-- Universal selector `*`
-- Grouping selectors
-- Descendant / child / sibling selectors
-- Attribute selectors
-- Pseudo-classes (`:hover`, `:focus`, `:active`)
-- Pseudo-elements (`::before`, `::after`)
+- [x] Universal selector `*`
+- [x] Grouping selectors
+- [x] Descendant / child / sibling selectors
+- [x] Attribute selectors
+- [x] Pseudo-classes (`:hover`, `:focus`, `:active`)
+- [ ] Pseudo-elements (`::before`, `::after`)
 
 ### **3. Colors & Units**
 
-- Hex, RGB, HSL
-- px, %, em, rem, vw, vh
-- opacity, rgba()
+- [ ] Hex, RGB, HSL
+- [ ] px, %, em, rem, vw, vh
+- [x] opacity, rgba()
 
 ### **4. Box Model (VERY important) chp 13**
 
-- Margin
-- Padding
-- Border
-- Width / height
-- `box-sizing`
+- [x] Margin
+- [x] Padding
+- [x] Border
+- [x] Width / height
+- [ ] `box-sizing`
 
 ### **5. Display Types**
 
-- block
-- inline
-- inline-block
-- none
-- visibility
+- [x] block
+- [x] inline
+- [ ] inline-block
+- [x] none
+- [ ] visibility
 
 ### **6. Positioning**
 
-- static
-- relative
-- absolute
-- fixed
-- sticky
-- z-index
+- [x] static
+- [x] relative
+- [x] absolute
+- [x] fixed
+- [x] sticky
+- [x] z-index
 
 ### **7. Backgrounds**
 
-- background-color
-- background-image
-- background-size
-- background-position
-- background-repeat
-- gradient
+- [x] background-color
+- [x] background-image
+- [x] background-size
+- [x] background-position
+- [x] background-repeat
+- [x] gradient
 
 ### **8. Text & Typography**
 
-- font-size
-- font-family
-- font-weight
-- line-height
-- letter-spacing
-- text-align
-- text-decoration
+- [x] font-size
+- [x] font-family
+- [x] font-weight
+- [x] line-height
+- [x] letter-spacing
+- [x] text-align
+- [x] text-decoration
 
 ---
 
 # **📌 Layout (High Priority for Web Dev Students)**
 
-### **9. Flexbox**
+### **9. [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)**
 
-- Main axis vs cross axis
-- justify-content
-- align-items
-- flex-direction
-- flex-wrap
-- gap
-- order
-- flex-grow / shrink / basis
+- [ ] Main axis vs cross axis
+- [x] justify-content
+- [x] align-items
+- [x] flex-direction
+- [x] flex-wrap
+- [x] gap
+- [x] order
+- [x] flex-grow & shrink
+- [ ] flex-basis
 
-### **10. CSS Grid**
+### **10. CSS Grid (skipped)**
 
-- Rows & columns
-- grid-template
-- gap
-- place-items
-- repeat(), minmax()
-- grid-auto-flow
+- [ ] Rows & columns
+- [ ] grid-template
+- [ ] gap
+- [ ] place-items
+- [ ] repeat(), minmax()
+- [ ] grid-auto-flow
 
 ### **11. Responsive Design**
 
-- Mobile-first approach (safe view [img 1](https://cdn.dribbble.com/userupload/25916613/file/original-dd65ad1d9d4b5345a9546c729a0d82ca.png) | [img 2](https://www.practicalecommerce.com/wp-content/uploads/2018/02/thumb-zone-mapping.png))
-- Media queries (`min-width` / `max-width`)
-- Breakpoints
-- Responsive units (%, vw/vh, rem)
+- [ ] Mobile-first approach (safe view [img 1](https://cdn.dribbble.com/userupload/25916613/file/original-dd65ad1d9d4b5345a9546c729a0d82ca.png) | [img 2](https://www.practicalecommerce.com/wp-content/uploads/2018/02/thumb-zone-mapping.png))
+- [ ] Media queries (`min-width` / `max-width`)
+- [ ] Breakpoints
+- [x] Responsive units (%, vw/vh, rem)
 
 ---
 
@@ -142,41 +137,41 @@ Here’s a clean, practical list of **CSS topics** you should teach in a web dev
 
 ### **12. Transitions**
 
-- transition-property
-- transition-duration
-- hover animations
+- [ ] transition-property
+- [ ] transition-duration
+- [ ] hover animations
 
 ### **13. Transforms**
 
-- rotate
-- scale
-- translate
-- skew
+- [x] rotate
+- [ ] scale
+- [ ] translate
+- [ ] skew
 
 ### **14. Animations (Keyframes)**
 
-- @keyframes
-- animation-duration
-- animation-fill-mode
-- animation-iteration-count
+- [ ] @keyframes
+- [ ] animation-duration
+- [ ] animation-fill-mode
+- [ ] animation-iteration-count
 
 ### **15. Shadows**
 
-- [box-shadow](https://getcssscan.com/css-box-shadow-examples)
-- text-shadow
+- [x] [box-shadow](https://getcssscan.com/css-box-shadow-examples)
+- [x] text-shadow
 
 ### **16. Overflow**
 
-- hidden
-- scroll
-- auto
+- [x] hidden
+- [x] scroll
+- [x] auto
 
 ### **17. Object-fit / object-position** (For images & videos)
 
 ### **18. CSS Variables**
 
-- root variables
-- using var()
+- [x] root variables
+- [x] using var()
 
 ---
 
@@ -184,45 +179,40 @@ Here’s a clean, practical list of **CSS topics** you should teach in a web dev
 
 ### **19. CSS Specificity & Inheritance**
 
-- Specificity rules
-- How CSS decides which rule wins
-- !important (when to avoid)
+- [ ] Specificity rules
+- [ ] How CSS decides which rule wins
+- [x] !important (when to avoid)
 
 ### **20. Responsive Images**
 
-- `picture`, `srcset`, `sizes`
+- [ ] `picture`, `srcset`, `sizes`
 
 ### **21. Modern CSS Features**
 
-- clamp()
-- container queries (if advanced)
-- logical properties (margin-inline, etc.)
+- [ ] clamp()
+- [ ] container queries (if advanced)
+- [ ] logical properties (margin-inline, etc.)
 
 ### **22. CSS Functions**
 
-- calc()
-- min(), max()
+- [x] calc()
+- [x] min(), max()
 
 ---
 
 # **📌 Best Practices**
 
-- Naming conventions (BEM)
-- File structure (components, utilities)
-- When to use classes vs IDs
-- Consistent spacing system (margin/padding scale)
+- [ ] Naming conventions (BEM)
+- [ ] File structure (components, utilities)
+- [ ] When to use classes vs IDs
+- [ ] Consistent spacing system (margin/padding scale)
 
 ---
 
-- [ ] **Class 5–6:** CSS basics (selectors, , cascading, inheritance).
-- [ ] text per ak class how to use google fonts
-- [ ] box model
-- [ ] Layout Position
-- [ ] **Class 7–8:** Flexbox (responsive).
-- [ ] **Class 9–10:** Media queries, animations, CSS variables.
-- [ ] **Class 15–16:** SQL basics (SELECT, INSERT, UPDATE, DELETE).
 
-**Mini Project:** Responsive landing page, push to GitHub.
+<!-- - [ ] **Class 15–16:** SQL basics (SELECT, INSERT, UPDATE, DELETE). -->
+
+<!-- **Mini Project:** Responsive landing page, push to GitHub. -->
 
 ---
 
