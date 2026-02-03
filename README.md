@@ -126,7 +126,7 @@ Code will be updated after each class.
 
 ### **11. Responsive Design**
 
-- [ ] Mobile-first approach (safe view [img 1](https://cdn.dribbble.com/userupload/25916613/file/original-dd65ad1d9d4b5345a9546c729a0d82ca.png) | [img 2](https://www.practicalecommerce.com/wp-content/uploads/2018/02/thumb-zone-mapping.png))
+- [x] Mobile-first approach (safe view [img 1](https://cdn.dribbble.com/userupload/25916613/file/original-dd65ad1d9d4b5345a9546c729a0d82ca.png) | [img 2](https://www.practicalecommerce.com/wp-content/uploads/2018/02/thumb-zone-mapping.png))
 - [ ] Media queries (`min-width` / `max-width`)
 - [ ] Breakpoints
 - [x] Responsive units (%, vw/vh, rem)
@@ -209,16 +209,14 @@ Code will be updated after each class.
 
 ---
 
-
-<!-- - [ ] **Class 15–16:** SQL basics (SELECT, INSERT, UPDATE, DELETE). -->
-
-<!-- **Mini Project:** Responsive landing page, push to GitHub. -->
-
----
-
 ### **Month 3 – JavaScript Basics**
 
 - [ ] **Class 17–18:** JS fundamentals (variables, operators, loops).
+- dsd
+  - Operators
+    - Comparison operator link 1
+    - Logical operator [link 1](https://www.programiz.com/javascript/comparison-logical) | [link 2](https://www.w3schools.com/js/js_logical.asp)
+  - truthy and falsy values [link 1](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript/) | [link 2](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 - [ ] **Class 19–20:** Functions, arrays, objects.
 - [ ] **Class 21–22:** DOM manipulation.
 - [ ] **Class 23–24:** Forms validation + ES6 features.
@@ -259,6 +257,13 @@ Code will be updated after each class.
 - [ ] **Class 47:** React Native styling & navigation basics.
 - [ ] **Class 48:** LinkedIn basics + portfolio setup + project showcase.
 
-**Final Project:** **Taskify (Task Manager App)** with Supabase (web) + mini React Native extension.
+## JS projects
+
+1. Body color change with Button
+1. TimeTable Generator
+1. Todo List
+1. Weather app
+
+**Final Project:** **Taskify (Task Manager App)** with Supabase (web) + mini React Native extension. (login/signup)
 
 ---
