@@ -212,7 +212,7 @@ Code will be updated after each class.
 ### **Month 3 – JavaScript Basics**
 
 - [ ] **Class 17–18:** JS fundamentals (variables, operators, loops).
-- dsd
+  - Data types
   - Operators
     - Comparison operator link 1
     - Logical operator [link 1](https://www.programiz.com/javascript/comparison-logical) | [link 2](https://www.w3schools.com/js/js_logical.asp)
@@ -267,3 +267,10 @@ Code will be updated after each class.
 **Final Project:** **Taskify (Task Manager App)** with Supabase (web) + mini React Native extension. (login/signup)
 
 ---
+
+more topics 
+- DOM
+- tree consists of nodes and links
+- background attachment
+- priority of inline, internal, external styles
+- 
