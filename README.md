@@ -214,7 +214,7 @@ Code will be updated after each class.
 - [ ] **Class 17–18:** JS fundamentals (variables, operators, loops).
   - Data types
   - Operators
-    - Comparison operator link 1
+    - Comparison operator [link 1](https://media.geeksforgeeks.org/wp-content/uploads/20260128123038832588/operator.webp)
     - Logical operator [link 1](https://www.programiz.com/javascript/comparison-logical) | [link 2](https://www.w3schools.com/js/js_logical.asp)
   - truthy and falsy values [link 1](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript/) | [link 2](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 - [ ] **Class 19–20:** Functions, arrays, objects.

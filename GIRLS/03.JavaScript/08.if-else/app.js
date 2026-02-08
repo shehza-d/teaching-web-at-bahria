@@ -2,15 +2,21 @@
 // if (boolean) {
 // }
 
+if (5 > 6) {
+  // true
+  console.log("cold drink");
+} else {
+  // false
+  console.log("tea");
+}
+
 if (false) {
   // ye code KABHI BHI NHI chale ga
   console.log("Shehzad");
 }
 
-let weather = 5; //Number(prompt("Enter temp"));
+let weather = 23; // Number(prompt("Enter temperature"));
 
-// 20 pr sardi
-// if (weather < 21 ) {
 if (weather <= 20) {
   // ye code chale ga
   console.log("Sardi hy 🥶");
