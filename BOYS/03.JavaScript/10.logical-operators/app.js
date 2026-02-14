@@ -25,7 +25,7 @@ let y = 2;
 let z = 3;
 
 if (x < y && y < z) {
-//   console.log("running...");
+  //   console.log("running...");
 }
 // console.log(x < y && y < z && x == 3);
 
@@ -42,7 +42,6 @@ let age = 20;
 // } else {
 //   console.log("ghar jao");
 // }
-
 
 // // OR (||):
 // console.log(true || false);
@@ -64,7 +63,6 @@ let age = 20;
 // Home work
 // console.log(5 > 3 && (10 < 5 || 2 < 4));
 // console.log(!(4 > 2 && 1 > 5));
-
 
 let x = 5;
 let y = 6;
@@ -95,3 +93,40 @@ let test16 = "hh" || null;
 let test17 = "hh" || "kk";
 
 // console.log("result: ", test);
+
+// true = 1
+// false = 0
+
+// AND ( · ) → works like multiplication
+
+// 1 · 1 = 1
+
+// 1 · 0 = 0
+
+// 0 · 1 = 0
+
+// 0 · 0 = 0
+
+//
+
+// OR ( + ) → works like addition
+
+// 0 + 0 = 0
+
+// 0 + 1 = 1
+
+// 1 + 0 = 1
+
+// 1 + 1 = 1
+
+// simple rule is if both the inputs are same the output will also be same
+
+// console.log(true && true);
+// console.log(false && false);
+
+// console.log(true || true);
+// console.log(false || false);
+
+// 
+
+
