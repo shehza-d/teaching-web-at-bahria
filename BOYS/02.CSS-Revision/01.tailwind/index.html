@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bdr {
+        border: 2px solid red;
+        border: 1px solid gray;
+      }
+      .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <h1 class="bg-purple-700 border-4 border-black m-4 p-4 text-center">
+      Hello world
+    </h1>
+
+    <div
+      class="flex h-20 justify-between items-center border-4 border-green-400"
+    >
+      <div class="bdr h-10 w-10 center">1</div>
+      <div class="bdr h-10 w-10 center">2</div>
+      <div class="bdr h-10 w-10 center">3</div>
+      <div class="bdr h-10 w-10 center">4</div>
+    </div>
+
+    <!-- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss  -->
+  </body>
+</html>

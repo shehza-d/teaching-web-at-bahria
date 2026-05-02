@@ -14,6 +14,8 @@ Code will be updated after each class.
 ---
 
 ## 📅 Syllabus (8 Months, 2 Classes/Week → 48 Sessions)
+sdfedd
+
 
 ---
 
@@ -273,4 +275,4 @@ more topics
 - tree consists of nodes and links
 - background attachment
 - priority of inline, internal, external styles
-- 
+-
