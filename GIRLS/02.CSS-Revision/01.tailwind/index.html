@@ -4,17 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .shehzad{
+        backdrop-filter: blur(2px);
+        background-color: rgba(37, 210, 233, 0.3);
+      }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <h1 class="bg-red-300 text-center text-5xl">Hello</h1>
-
-    <div class="flex h-20 items-center justify-between border-2 border-green-500">
-      <div class="h-10 w-10 bg-pink-500"></div>
-      <div class="h-10 w-10 bg-green-500"></div>
-      <div class="h-10 w-10 bg-yellow-500"></div>
-      <div class="h-10 w-10 bg-purple-500"></div>
+  <body class="bg-cover" style="background-image: url(./img/my-img.png)">
+   
+    <div class="h-[100vh] flex items-center justify-around">
+      <div class=" h-[80vh] w-40 shadow-xl shehzad border-[0.5px] rounded-xl border-gray-300">
+        <h1>Hello</h1>
+      </div>
+      <div class=" h-[80vh] w-40 shadow-xl shehzad border-[0.5px] rounded-xl border-gray-300">
+        <h1>Hello</h1>
+      </div>
     </div>
+
     <!-- https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss -->
   </body>
 </html>
