@@ -14,7 +14,7 @@
 
 <!-- ### **Week 1: Fundamentals (Most Important)** -->
 
-#### Class 1
+### Class 1
 
 - [ ] Variables (`let`, `const`)
 - [ ] [Data types](https://www.programiz.com/javascript/data-types)
@@ -27,7 +27,7 @@
 
 ---
 
-#### Class 2
+### Class 2
 
 - [ ] Operators
   - [ ] [Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
@@ -43,9 +43,7 @@
 
 ---
 
-<!-- ### **Week 2: Control Flow (Core Logic)** -->
-
-#### Class 8
+### Class 8
 
 - [ ] Intro to DOM (JUST basics)
 - [ ] `querySelector`, `addEventListener`
@@ -54,7 +52,7 @@
 
 - [ ] Button click counter
 
-#### Class 5
+### Class 5
 
 - [ ] Functions (declaration, parameters, return)
 
@@ -64,7 +62,7 @@
 - [ ] Prime check function
 
 
-#### Class 6
+### Class 6
 
 - [ ] Arrays (basic)
 
@@ -75,7 +73,7 @@
 - [ ] Count even numbers
 
 
-#### Class 3
+### Class 3
 
 - [ ] Loops (`for`, `while`) (dry runs)
 - [ ] Looping over arrays
@@ -88,7 +86,7 @@
 
 ---
 
-#### Class 4
+### Class 4
 
 - [ ] Nested loops
 - [ ] Patterns (build thinking)
@@ -100,7 +98,7 @@
 
 👉 This is where real logic builds
 
-#### Class 7
+### Class 7
 
 - [ ] Strings (methods: length, slice, etc.)
 - [ ] Basic problem solving
