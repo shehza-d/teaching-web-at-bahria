@@ -12,8 +12,6 @@
 
 ## Progress
 
-<!-- ### **Week 1: Fundamentals (Most Important)** -->
-
 ### Class 1
 
 - [ ] Variables (`let`, `const`)
@@ -22,7 +20,7 @@
 
 **Practice:**
 
-- [ ] Sum of 2 numbers OR Swap variables
+- [ ] Sum of 2 numbers OR [Swap variables](https://github.com/shehza-d/teaching-web-at-SMIT-B11/blob/main/06.JavaScript%2F07.swap2numbers%2Fapp.js)
 - [ ] Even/odd check
 
 ---
@@ -31,9 +29,12 @@
 
 - [ ] Operators
   - [ ] [Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
-  - [ ] comparison
-  - [ ] logical
+  - [ ] [Comparison](https://media.geeksforgeeks.org/wp-content/uploads/20260128123038832588/operator.webp)
+  - [ ] [Logical](https://www.w3schools.com/js/js_logical.asp)
+  - Reference [article](https://www.programiz.com/javascript/comparison-logical)
+- [ ] [Truthy and Falsy values](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript)
 - [ ] `if / else`
+- [ ] ternary operator
 
 **Practice:**
 
@@ -43,16 +44,19 @@
 
 ---
 
-### Class 8
+### Class 3
 
-- [ ] Intro to DOM (JUST basics)
+- [ ] Intro to DOM
 - [ ] `querySelector`, `addEventListener`
 
 **Mini Project:**
 
+- [ ] [input-forms](https://github.com/shehza-d/teaching-web-at-bahria/blob/main/GIRLS/04.JavaScript/old/09.input-forms/app.js)
 - [ ] Button click counter
 
-### Class 5
+---
+
+### Class 4
 
 - [ ] Functions (declaration, parameters, return)
 
@@ -61,10 +65,21 @@
 - [ ] Calculator using functions
 - [ ] Prime check function
 
+---
 
-### Class 6
+### Class 5
 
-- [ ] Arrays (basic)
+- [ ] Arrays
+  - [ ] Index access (arr[i])
+  - [ ] length → loop control
+  - [ ] push() / pop() → stack behavior
+  - [ ] shift() / unshift() → queue behavior
+  - [ ] join() → convert array → string
+  - [ ] includes() → searching
+  - [ ] indexOf() → position finding
+- [ ] Objects intro
+
+<!-- Teaching Rule: Before any method, ask: “Can you do this using a loop?” If they can’t → method will hurt them If they can → method will help them -->
 
 **Practice:**
 
@@ -72,10 +87,11 @@
 - [ ] Sum of array
 - [ ] Count even numbers
 
+---
 
-### Class 3
+### Class 6
 
-- [ ] Loops (`for`, `while`) (dry runs)
+- [ ] Loops (`for`, `while`)
 - [ ] Looping over arrays
 
 **Practice:**
@@ -86,32 +102,52 @@
 
 ---
 
-### Class 4
+### Class 7
 
 - [ ] Nested loops
 - [ ] Patterns (build thinking)
 
 **Practice:**
 
+- [ ] “Find max using loop”
 - [ ] Star patterns
 - [ ] Number patterns
 
 👉 This is where real logic builds
 
-### Class 7
+---
+
+### Class 8
 
 - [ ] Strings (methods: length, slice, etc.)
+  - [ ] split()
+- [ ] array.sort()
+  - a - b → ascending
+  - b - a → descending
 - [ ] Basic problem solving
 
 **Practice:**
 
+- [ ] Sort
+  - [ ] Sort an array ascending
+  - [ ] Sort descending
+  - [ ] Find largest after sorting
+  - [ ] Sort names in descending (strings)
 - [ ] Reverse string
 - [ ] Palindrome check
 
 ---
 
+### Extras
+
+- [ ] local storage
+- [ ] try catch
+- [ ] date-fns lib
+- [ ] api fetch
+
 ### Projects
 
+- [ ] Dark mode
 - [ ] Simple todo (if=localStorage)
 - [ ] Weather App
 
@@ -134,3 +170,8 @@ If students can:
 - [ ] Use functions properly
 
 👉 You’ve succeeded (even if they know little DOM) -->
+<!--
+SKIP
+- increments
+-
+ -->
