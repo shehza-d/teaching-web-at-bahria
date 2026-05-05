@@ -12,7 +12,7 @@
 
 ## Progress
 
-### Class 1
+### Class 1: Basics
 
 - [ ] Variables (`let`, `const`)
 - [ ] [Data types](https://www.programiz.com/javascript/data-types)
@@ -25,7 +25,7 @@
 
 ---
 
-### Class 2
+### Class 2: Decision Making
 
 - [ ] Operators
   - [ ] [Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
@@ -34,7 +34,7 @@
   - Reference [article](https://www.programiz.com/javascript/comparison-logical)
 - [ ] [Truthy and Falsy values](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript)
 - [ ] `if / else`
-- [ ] ternary operator
+- [ ] Ternary operator
 
 **Practice:**
 
@@ -44,19 +44,20 @@
 
 ---
 
-### Class 3
+### Class 3: DOM
 
 - [ ] Intro to DOM
 - [ ] `querySelector`, `addEventListener`
 
 **Mini Project:**
 
-- [ ] [input-forms](https://github.com/shehza-d/teaching-web-at-bahria/blob/main/GIRLS/04.JavaScript/old/09.input-forms/app.js)
 - [ ] Button click counter
+- [ ] [Input-forms](./old/09.input-forms/app.js)
+- [x] [Background color change](./old/05.button-onclick/)
 
 ---
 
-### Class 4
+### Class 4: Functions
 
 - [ ] Functions (declaration, parameters, return)
 
@@ -65,9 +66,13 @@
 - [ ] Calculator using functions
 - [ ] Prime check function
 
+**Assignment:**
+
+- Convert previous calculator → functions
+
 ---
 
-### Class 5
+### Class 5: Arrays
 
 - [ ] Arrays
   - [ ] Index access (arr[i])
@@ -77,7 +82,8 @@
   - [ ] join() → convert array → string
   - [ ] includes() → searching
   - [ ] indexOf() → position finding
-- [ ] Objects intro
+- [ ] Objects
+  - [ ] accessing value from nested object
 
 <!-- Teaching Rule: Before any method, ask: “Can you do this using a loop?” If they can’t → method will hurt them If they can → method will help them -->
 
@@ -87,9 +93,13 @@
 - [ ] Sum of array
 - [ ] Count even numbers
 
+**Mini Assignment:**
+
+- Student marks system (array of marks)
+
 ---
 
-### Class 6
+### Class 6: Loops (Core)
 
 - [ ] Loops (`for`, `while`)
 - [ ] Looping over arrays
@@ -100,18 +110,27 @@
 - [ ] Sum of N numbers
 - [ ] Multiplication table
 
+**Assignment:**
+
+- Solve 6–8 loop problems
+
 ---
 
 ### Class 7
 
 - [ ] Nested loops
 - [ ] Patterns (build thinking)
+- [ ] Matrix addition (if time)
 
 **Practice:**
 
 - [ ] “Find max using loop”
 - [ ] Star patterns
 - [ ] Number patterns
+
+**Assignment:**
+
+- [ ] 3 pattern problems (must explain logic)
 
 👉 This is where real logic builds
 
@@ -124,21 +143,37 @@
 - [ ] array.sort()
   - a - b → ascending
   - b - a → descending
-- [ ] Basic problem solving
 
 **Practice:**
 
+- [ ] Basic problem solving of string
+  - [ ] Reverse string
+  - [ ] Palindrome check
 - [ ] Sort
   - [ ] Sort an array ascending
   - [ ] Sort descending
   - [ ] Find largest after sorting
   - [ ] Sort names in descending (strings)
-- [ ] Reverse string
-- [ ] Palindrome check
+
+---
+
+### Class 9: Problem Solving
+
+Combine everything
+
+**Practice:** Mixed problems (arrays + loops + functions)
 
 ---
 
 ### Extras
+
+- [ ] fetch/axios
+- [ ] try/catch
+- [ ] loading/error state
+- [ ] localStorage
+<!-- - [ ] Demo Project (you code, they observe) -->
+
+---
 
 - [ ] local storage
 - [ ] try catch
@@ -147,9 +182,22 @@
 
 ### Projects
 
+- [ ] Counter
 - [ ] Dark mode
-- [ ] Simple todo (if=localStorage)
+- [ ] Marks Analyzer
+  - Input marks
+  - Calculate average
+  - Find max/min
+  - Grade system
+- [ ] Todo App
+  - Add item
+  - Delete item
+  - localStorage (optional)
+- [ ] Github Profile Finder
 - [ ] Weather App
+  - Loading
+  - Error
+- [ ] AI API Project
 
 ---
 
