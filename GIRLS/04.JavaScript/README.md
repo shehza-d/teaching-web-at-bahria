@@ -171,14 +171,10 @@ Combine everything
 - [ ] try/catch
 - [ ] loading/error state
 - [ ] localStorage
-<!-- - [ ] Demo Project (you code, they observe) -->
-
----
-
-- [ ] local storage
-- [ ] try catch
 - [ ] date-fns lib
 - [ ] api fetch
+
+---
 
 ### Projects
 

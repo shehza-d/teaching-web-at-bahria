@@ -1,32 +1,59 @@
-# CSS
+# 🎨 CSS Learning Resources
 
-## [CSS Game](https://flukeout.github.io/)
+## 📘 Core Learning
 
-## [CSS Guess](https://www.guess-css.app/)
+- 🔗 [CSS Complete Course](https://youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw&si=ZRWRpmoQh4H2TP2n&authuser=0)
 
-### [Beautiful CSS box-shadow](https://getcssscan.com/css-box-shadow-examples)
+  Ye CSS ka course hy ap isma se roz 1, 2 ya 3 videos dekhe takky apko CSS ma koi problem face na karni pare aur CSS ma apko mastery mil jaye
 
-[learn-css](https://www.codecademy.com/learn/learn-css)
+- 🔗 [codecademy.com/learn/learn-css](https://www.codecademy.com/learn/learn-css)
 
-#### Assignment Website
+## 🛠️ Tools (Very Useful)
 
-https://www.philpallen.co/
+- ✅ [Color combinations](https://colorhunt.co/)
+- ✅ [Shadow Examples](https://getcssscan.com/css-box-shadow-examples)
+- ✅ [Button Templates](https://getcssscan.com/css-buttons-examples)
+- ✅ [CSS Gradient](https://cssgradient.io/)
+- ✅ [CSS Generator](https://cssgenerator.org) (Shadows, Gradients, etc.) _(added)_
+- ✅ Flexbox Visual Tool: [https://flexbox.tech](https://flexbox.tech) _(added)_
+- ✅ Grid Generator: [https://cssgrid-generator.netlify.app](https://cssgrid-generator.netlify.app) _(added)_
 
-<!-- https://resources.github.com -->
+## 📚 Layout & Concepts
 
-## [Flexbox Article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- 📖 [Flexbox Guidebook](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- 📖 [Responsive Design (MDN)](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- 📖 [Some other books](https://github.com/shehza-d/Learning-Resources/tree/main/03.UX-UI-design-and-CSS)
 
-### [Flexbox froggy](https://flexboxfroggy.com/)
+## 🎮 Interactive Games (Highly Recommended)
 
-[Grid garden](https://cssgridgarden.com/)
+- 🐸 Flexbox Practice: [flexboxfroggy.com](https://flexboxfroggy.com/)
+- 🎯 CSS Challenge Game: [guess-css.app](https://www.guess-css.app/)
+- 🎯 CSS Selectors Practice: [flukeout.github.io](https://flukeout.github.io/)
+- 🌱 CSS Grid Practice: [cssgridgarden.com](https://cssgridgarden.com/)
+- ⚔️ Advanced Grid Game: [codingfantasy.com/games/css-grid-attack/play](https://codingfantasy.com/games/css-grid-attack/play)
 
-[Grid attack](https://codingfantasy.com/games/css-grid-attack/play)
+## 🎨 Design & UI Inspiration
 
-### [Responsive_Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- ✨ [Beautiful Sites](https://github.com/shehza-d/learning-CSS/blob/main/beautiful-sites.md)
+- 🎨 UI Inspiration: [dribbble.com](https://dribbble.com)
+- 🎨 Real Websites Inspiration: [awwwards.com](https://www.awwwards.com)
 
-https://colorhunt.co/
+## 🧪 Practice / Assignment
 
-https://getcssscan.com/css-buttons-examples
+- 💻 [assignment repo](https://github.com/shehza-d/smit-assignments/tree/main/02.CSS)
+
+## 🚀 For Better Understanding
+
+- 🎥 [Flexbox Video](https://www.youtube.com/watch?v=DWk2mndNTHY&authuser=0) (short + clear): _(suggest students search & pick one)_
+- 🎥 CSS Grid Crash Course _(recommended to assign as homework)_
+- 🎥 Best channel for CSS on Youtube: [Kevin Powell](https://www.youtube.com/@KevinPowell)
+  - 🔗 [Advance courses](https://www.kevinpowell.co/courses/)
+
+### Tips
+
+- Don’t just read → **build small layouts daily** and try copying real website layouts
+- Use browser DevTools to experiment with CSS
+- Practice **Flexbox + Grid** repeatedly (most important topics)
 
 Important CSS properties:
 
