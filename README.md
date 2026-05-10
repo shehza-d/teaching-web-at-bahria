@@ -1,6 +1,6 @@
 # Web Development Class Code (2025-26)
 
-This repository contains the code written during classes.  
+This repository contains the code written during classes.
 Each folder is organized by week/topic.
 
 Code will be updated after each class.
@@ -14,8 +14,6 @@ Code will be updated after each class.
 ---
 
 ## 📅 Syllabus (8 Months, 2 Classes/Week → 48 Sessions)
-sdfedd
-
 
 ---
 
@@ -270,7 +268,8 @@ sdfedd
 
 ---
 
-more topics 
+more topics
+
 - DOM
 - tree consists of nodes and links
 - background attachment
