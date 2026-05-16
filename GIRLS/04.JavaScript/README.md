@@ -27,8 +27,8 @@
 
 ### Class 2: Decision Making
 
-- [ ] Operators
-  - [ ] [Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
+- [x] Operators
+  - [x] [Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
   - [ ] [Comparison](https://media.geeksforgeeks.org/wp-content/uploads/20260128123038832588/operator.webp)
   - [ ] [Logical](https://www.w3schools.com/js/js_logical.asp)
   - Reference [article](https://www.programiz.com/javascript/comparison-logical)
