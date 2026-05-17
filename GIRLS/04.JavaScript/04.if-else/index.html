@@ -9,11 +9,14 @@
     <script>
       let weather = Number(prompt("enter weather "));
 
-      if (weather > 25) {
-        alert("Weather is Hot");
-      } else {
-        alert("weather is cold");
-      }
-    </script>
+      // if (weather > 25) {
+      //   alert("Weather is Hot");
+      // } else {
+      //   alert("weather is cold");
+      // }
+      let msg = (weather > 25) ? "Weather is Hot" : "Weather is Cold";
+
+      alert(msg)
+   </script>
   </body>
 </html>

@@ -14,13 +14,13 @@
 
 ### Class 1: Basics
 
-- [ ] Variables (`let`, `const`)
-- [ ] [Data types](https://www.programiz.com/javascript/data-types)
-- [ ] Input/output (prompt/console)
+- [x] Variables (`let`, `const`)
+- [x] [Data types](https://www.programiz.com/javascript/data-types)
+- [x] Input/output (prompt/console)
 
 **Practice:**
 
-- [ ] Sum of 2 numbers OR [Swap variables](https://github.com/shehza-d/teaching-web-at-SMIT-B11/blob/main/06.JavaScript%2F07.swap2numbers%2Fapp.js)
+- [x] Sum of 2 numbers OR [Swap variables](https://github.com/shehza-d/teaching-web-at-SMIT-B11/blob/main/06.JavaScript%2F07.swap2numbers%2Fapp.js)
 - [ ] Even/odd check
 
 ---
@@ -29,12 +29,12 @@
 
 - [x] Operators
   - [x] [Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
-  - [ ] [Comparison](https://media.geeksforgeeks.org/wp-content/uploads/20260128123038832588/operator.webp)
-  - [ ] [Logical](https://www.w3schools.com/js/js_logical.asp)
+  - [x] [Comparison](https://media.geeksforgeeks.org/wp-content/uploads/20260128123038832588/operator.webp)
+  - [x] [Logical](https://www.w3schools.com/js/js_logical.asp)
   - Reference [article](https://www.programiz.com/javascript/comparison-logical)
-- [ ] [Truthy and Falsy values](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript)
-- [ ] `if / else`
-- [ ] Ternary operator
+- [x] [Truthy and Falsy values](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript)
+- [x] `if / else`
+- [x] Ternary operator
 
 **Practice:**
 
@@ -59,7 +59,7 @@
 
 ### Class 4: Functions
 
-- [ ] Functions (declaration, parameters, return)
+- [x] [Functions](https://www.w3schools.com/js/js_functions.asp) (declaration, parameters, return)
 
 **Practice:**
 
