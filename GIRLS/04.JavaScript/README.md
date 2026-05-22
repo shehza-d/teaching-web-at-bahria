@@ -30,7 +30,7 @@
 - [x] Operators
   - [x] [Arithmetic](https://www.w3schools.com/js/js_arithmetic.asp)
   - [x] [Comparison](https://media.geeksforgeeks.org/wp-content/uploads/20260128123038832588/operator.webp)
-  - [x] [Logical](https://www.w3schools.com/js/js_logical.asp)
+  - [ ] [Logical](https://www.w3schools.com/js/js_logical.asp)
   - Reference [article](https://www.programiz.com/javascript/comparison-logical)
 - [x] [Truthy and Falsy values](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript)
 - [x] `if / else`
@@ -59,7 +59,12 @@
 
 ### Class 4: Functions
 
-- [x] [Functions](https://www.w3schools.com/js/js_functions.asp) (declaration, parameters, return)
+- [x] [Functions](https://www.w3schools.com/js/js_functions.asp)
+  - [ ] Default Parameter
+  - [x] Rest Operator
+  - [x] Return
+  - [ ] Built in function
+  - [ ] Arrow Function (optional)
 
 **Practice:**
 

@@ -5,18 +5,14 @@ function printName(myName) {
   console.log(myName);
   console.log(myName);
   console.log(myName);
-  console.log(myName);
-  console.log(myName);
-  console.log(myName);
-  console.log(myName);
 }
 
 // printName("Shehzad")
 // printName("Fatima")
 // printName("Ayesha")
 
+// a and b are parameters
 function multiply(a, b) {
-  // a and b are parameters
   let result = a * b;
   console.log(`Result is ${result}`);
 }
@@ -25,18 +21,33 @@ function multiply(a, b) {
 // multiply(2, 2);
 // multiply(5, 5);
 
-// function multiply(a, ...c) Rest parameters
+// Rest parameters
+function test2(a, ...b) {
+  // console.log(a); // apple
+  // console.log(b); // all other values
+}
+test2("apple", "banana", "pineapple", "grapes");
 
-// console.log(5, 6, 7, 5, 3, 3);
+// console.log(5, 6, 7, 5, 3, 3); // example use of rest parameter
 
 function sum(a, b) {
   console.log("Testing 1");
-  return a + b; // return ky baad function nhi chalta
+  let result = a + b;
+  return result; // return ky baad function nhi chalta
   console.log("Testing 2");
 }
 
-let result = sum(10, 20);
+// let result = sum(10, 20);
 
-console.log(result);
-console.log(sum(5, 3));
+// console.log(result);
+// console.log(sum(5, 3));
 
+// -----------------------
+function multiply(a, b) {
+  let result = a * b;
+  console.log(`Result is ${result}`);
+}
+
+multiply(3, 3, 3); // TODO: multiply 3 numbers!
+// multiply(2, 2); // phale is else
+// multiply(5, 5);

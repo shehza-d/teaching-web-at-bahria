@@ -59,9 +59,12 @@
 
 ### Class 4: Functions
 
-- [x] [Functions](https://www.w3schools.com/js/js_functions.asp) (declaration, parameters, return)
-- [x] Default Parameter
-- [x] Rest Operator
+- [x] [Functions](https://www.w3schools.com/js/js_functions.asp)
+  - [x] Default Parameter
+  - [x] Rest Operator
+  - [ ] Return
+  - [x] Built in function
+  - [ ] Arrow Function (optional)
 
 **Practice:**
 
