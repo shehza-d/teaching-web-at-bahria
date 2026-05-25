@@ -60,10 +60,10 @@
 ### Class 4: Functions
 
 - [x] [Functions](https://www.w3schools.com/js/js_functions.asp)
-  - [ ] Default Parameter
+  - [x] Default Parameter
   - [x] Rest Operator
   - [x] Return
-  - [ ] Built in function
+  - [x] Built in function
   - [ ] Arrow Function (optional)
 
 **Practice:**
@@ -79,14 +79,14 @@
 
 ### Class 5: Arrays
 
-- [ ] Arrays
-  - [ ] Index access (arr[i])
-  - [ ] length → loop control
-  - [ ] push() / pop() → stack behavior
-  - [ ] shift() / unshift() → queue behavior
-  - [ ] join() → convert array → string
-  - [ ] includes() → searching
-  - [ ] indexOf() → position finding
+- [x] Arrays
+  - [x] Index access (arr[i])
+  - [x] length → loop control
+  - [x] push() / pop() → stack behavior
+  - [x] shift() / unshift() → queue behavior
+  - [x] join() → convert array → string
+  - [x] includes() → searching
+  - [x] indexOf() → position finding
 - [ ] Objects
   - [ ] accessing value from nested object
 

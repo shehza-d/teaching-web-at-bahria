@@ -34,7 +34,7 @@
   - Reference [article](https://www.programiz.com/javascript/comparison-logical)
 - [x] [Truthy and Falsy values](https://www.freecodecamp.org/news/what-are-falsey-values-in-javascript)
 - [x] `if / else`
-- [ ] Ternary operator
+- [x] Ternary operator
 
 **Practice:**
 
@@ -62,7 +62,7 @@
 - [x] [Functions](https://www.w3schools.com/js/js_functions.asp)
   - [x] Default Parameter
   - [x] Rest Operator
-  - [ ] Return
+  - [x] Return
   - [x] Built in function
   - [ ] Arrow Function (optional)
 
@@ -79,14 +79,14 @@
 
 ### Class 5: Arrays
 
-- [ ] Arrays
-  - [ ] Index access (arr[i])
-  - [ ] length → loop control
-  - [ ] push() / pop() → stack behavior
-  - [ ] shift() / unshift() → queue behavior
-  - [ ] join() → convert array → string
-  - [ ] includes() → searching
-  - [ ] indexOf() → position finding
+- [x] Arrays
+  - [x] Index access (arr[i])
+  - [x] length → loop control
+  - [x] push() / pop() → stack behavior
+  - [x] shift() / unshift() → queue behavior
+  - [x] join() → convert array → string
+  - [x] includes() → searching
+  - [x] indexOf() → position finding
 - [ ] Objects
   - [ ] accessing value from nested object
 
@@ -106,7 +106,7 @@
 
 ### Class 6: Loops (Core)
 
-- [ ] Loops (`for`, `while`)
+- [x] Loops (`for`, `while`)
 - [ ] Looping over arrays
 
 **Practice:**
@@ -172,6 +172,7 @@ Combine everything
 
 ### Extras
 
+- [ ] import export
 - [ ] fetch/axios
 - [ ] try/catch
 - [ ] loading/error state
