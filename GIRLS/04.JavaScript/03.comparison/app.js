@@ -35,5 +35,4 @@ console.log(6 <= 6);
 console.log(6.5 >= 6.6);
 console.log(6.9 < 6.0001);
 
-
 console.log(7 >= 6);

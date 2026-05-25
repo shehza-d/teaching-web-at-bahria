@@ -1,13 +1,7 @@
+document.querySelector("#pakistan").addEventListener("click", function () {
+  document.body.style.backgroundColor = "red";
+});
 
-document.querySelector("#pakistan").addEventListener("click",function(){
-	
-	document.body.style.backgroundColor = "red"
-	
-})
-
-
-document.querySelector("#blue-btn").addEventListener("click",function(){
-	
-	document.body.style.backgroundColor = "blue"
-	
-})
+document.querySelector("#blue-btn").addEventListener("click", function () {
+  document.body.style.backgroundColor = "blue";
+});

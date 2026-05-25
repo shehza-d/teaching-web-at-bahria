@@ -37,7 +37,6 @@ if (isEnroll && passed && age > 18) {
 //   console.log("something else");
 // }
 
-
 // ! false ko true aur true ko false kare ga
 // console.log(!false);
 
@@ -47,7 +46,6 @@ let y = 6;
 // console.log(!(x === y));
 // console.log(x == 5 || y == 5);
 // console.log(5 < 10 && y < 1);
-
 
 // aakhir truthy value return kare ga
 let test2 = true && "shehzad";

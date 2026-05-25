@@ -1,26 +1,26 @@
 let city = prompt("Enter your city?");
 
-let num1 = prompt("Enter first number")
-let num2 = prompt("Enter second number")
+let num1 = prompt("Enter first number");
+let num2 = prompt("Enter second number");
 
-alert(typeof num1)
-alert(`the type of num 1 is ${typeof num2}`)
+alert(typeof num1);
+alert(`the type of num 1 is ${typeof num2}`);
 
-num1 = Number(num1)
-num2 = Number(num2)
+num1 = Number(num1);
+num2 = Number(num2);
 
-alert(typeof num1)
-alert(`the type of num 1 is ${typeof num2}`)
+alert(typeof num1);
+alert(`the type of num 1 is ${typeof num2}`);
 
-alert(num1 + num2)
+alert(num1 + num2);
 
-let a = "shehzad"
+let a = "shehzad";
 
-alert(A)
+alert(A);
 
-let b = "Shehzad"
-let c = 'Shehzad'
-let d = `Shehzad`
+let b = "Shehzad";
+let c = "Shehzad";
+let d = `Shehzad`;
 
 let b = 5;
 let c = 34;

@@ -127,6 +127,4 @@ let test17 = "hh" || "kk";
 // console.log(true || true);
 // console.log(false || false);
 
-// 
-
-
+//

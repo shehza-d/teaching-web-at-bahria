@@ -15,13 +15,13 @@ let lastName = prompt("What is your Last Name?");
 
 alert(`Welcome ${firstName} ${lastName}! `);
 
-let a = prompt("enter first number")
-let b = prompt("enter second number")
+let a = prompt("enter first number");
+let b = prompt("enter second number");
 
-a = Number(a)
-b = Number(b)
+a = Number(a);
+b = Number(b);
 
-alert(a + b)
+alert(a + b);
 
 // let c = 5
 // let d = 3

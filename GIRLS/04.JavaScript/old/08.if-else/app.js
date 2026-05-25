@@ -3,25 +3,25 @@
 // }
 
 if (5 > 6) {
-	// true
-	console.log("cold drink");
+  // true
+  console.log("cold drink");
 } else {
-	// false
-	// console.log("tea");
+  // false
+  // console.log("tea");
 }
 
 if (false) {
-	// ye code KABHI BHI NHI chale ga
-	console.log("Shehzad");
+  // ye code KABHI BHI NHI chale ga
+  console.log("Shehzad");
 }
 
 let weather = 23; // Number(prompt("Enter temperature"));
 
 if (weather <= 20) {
-	// ye code chale ga
-	// console.log("Sardi hy 🥶");
+  // ye code chale ga
+  // console.log("Sardi hy 🥶");
 } else {
-	// console.log("Garmi hy 🌞");
+  // console.log("Garmi hy 🌞");
 }
 
 // if (String(weather) === "NaN") {
@@ -40,15 +40,15 @@ if (weather <= 20) {
 let percentage = Number(prompt("enter your percentage"));
 
 if (percentage > 90) {
-	console.log("A+");
+  console.log("A+");
 } else if (percentage > 80) {
-	console.log("A");
+  console.log("A");
 } else if (percentage > 70) {
-	console.log("B");
+  console.log("B");
 } else if (percentage > 60) {
-	console.log("C");
+  console.log("C");
 } else if (48 > 50) {
-	console.log("D");
+  console.log("D");
 } else {
-	console.log("fail");
+  console.log("fail");
 }
