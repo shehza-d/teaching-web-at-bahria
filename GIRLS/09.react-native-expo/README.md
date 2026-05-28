@@ -2,6 +2,8 @@
 
 [todo](https://github.com/shehza-d/teaching-web-at-SMIT-B11/tree/main/10.React)
 
+[Expo Tools Extension](https://marketplace.visualstudio.com/items?itemName=expo.vscode-expo-tools)
+
 ## React Native Expo
 
 Command:
