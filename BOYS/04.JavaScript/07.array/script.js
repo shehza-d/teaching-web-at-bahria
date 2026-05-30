@@ -63,3 +63,15 @@ if (age >= 18) {
 let message = `Access ${age >= 18 ? "Allowed" : "Denied"}`;
 
 console.log(message);
+
+let fruits = [
+  "apple",
+  "banana",
+  "watermelon",
+  "cherry",
+  "grapes",
+  "mango",
+  "orange",
+];
+
+console.log(fruits.slice(4,7));

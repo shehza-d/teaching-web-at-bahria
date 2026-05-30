@@ -39,3 +39,17 @@ for (let i = 1; i < 13; i++) {
   // both lines are correct
   console.log("6 x ", i, " = ", i * 6);
 }
+
+// ---------------------
+
+const fruits = [
+  "apple",
+  "banana",
+  "watermelon",
+  "cherry",
+  "grapes",
+  "mango",
+  "orange",
+];
+
+// console.log(fruits.slice(2,6) );
