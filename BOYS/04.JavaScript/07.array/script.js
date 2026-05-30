@@ -74,4 +74,4 @@ let fruits = [
   "orange",
 ];
 
-console.log(fruits.slice(4,7));
+console.log(fruits.slice(4, 7));
