@@ -50,3 +50,12 @@ function myFn(a, b) {
 }
 
 console.log(myFn(5, 2));
+
+// Arrow functions
+
+function sum(a, b) {
+  return a + b;
+}
+const sum = (a, b) => a + b;
+
+console.log(sum());

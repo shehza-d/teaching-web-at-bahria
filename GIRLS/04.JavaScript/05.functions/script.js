@@ -65,3 +65,11 @@ function someFunction() {
 
 setTimeout(someFunction, 2500);
 setInterval(someFunction, 1000);
+
+// Arrow functions
+
+function sum(a, b) {
+  return a + b;
+}
+
+console.log(sum());

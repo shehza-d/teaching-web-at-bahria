@@ -25,7 +25,7 @@ for (let i = 20; i > 0; i--) {
 }
 
 for (let i = 0; i < 20; i++) {
-  if (i == 6) {
+  if (i === 6) {
     break;
   }
   console.log(i);
