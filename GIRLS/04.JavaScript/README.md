@@ -87,8 +87,8 @@
   - [x] join() → convert array → string
   - [x] includes() → searching
   - [x] indexOf() → position finding
-- [ ] Objects
-  - [ ] accessing value from nested object
+- [x] Objects
+  - [x] accessing value from nested object
 
 <!-- Teaching Rule: Before any method, ask: “Can you do this using a loop?” If they can’t → method will hurt them If they can → method will help them -->
 
@@ -106,7 +106,7 @@
 
 ### Class 6: Loops (Core)
 
-- [ ] Loops (`for`, `while`)
+- [x] Loops (`for`, `while`)
 - [ ] Looping over arrays
 
 **Practice:**
