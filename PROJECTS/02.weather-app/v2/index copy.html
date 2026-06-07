@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Weather app</h1>
+
+    <form onsubmit="getWeather(event)">
+      <input type="text" />
+      <button type="submit">Get Weather</button>
+    </form>
+
+
+    <img src="" width="200" id="weather-img">
+
+    <h2 id="temperature-result"> </h2>
+    <h2 id="humidity-result"> </h2>
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.17.0/dist/axios.min.js"></script>
+
+  </body>
+</html>
