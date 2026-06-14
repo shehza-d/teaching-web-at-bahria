@@ -36,6 +36,3 @@ const colors = ["red", "green"];
 
 // console.log("first: ", first);
 // console.log("second: ", second);
-
-
-

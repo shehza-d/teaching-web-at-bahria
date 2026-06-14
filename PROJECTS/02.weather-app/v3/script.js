@@ -18,7 +18,8 @@ async function getWeather(event) {
     msg.innerHTML = "";
     tempResult.innerHTML = response.data.current.temp_c;
   } catch (error) {
-    msg.innerHTML = error.response.data.error.message || "Unknown error, please try again!"
+    msg.innerHTML =
+      error.response.data.error.message || "Unknown error, please try again!";
   }
 }
 

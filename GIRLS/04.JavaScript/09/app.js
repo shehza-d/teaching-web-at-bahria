@@ -49,7 +49,5 @@ const [second, first] = colors;
 
 // console.log("first: ", first);
 // console.log("second: ", second);
-const yourPoints = 65
-const classPoints = [45,67,43,90,72]
-
-
+const yourPoints = 65;
+const classPoints = [45, 67, 43, 90, 72];

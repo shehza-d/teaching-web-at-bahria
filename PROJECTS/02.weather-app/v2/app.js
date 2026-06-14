@@ -2,7 +2,6 @@
 let weatherCondition = document.querySelector("#weather_condition");
 let imgTag = document.querySelector("#weather_icon");
 
-
 // imgTag.src = 'https://cdn.vectorstock.com/i/1000v/34/76/sun-simple-icon-weather-summer-symbol-sign-vector-29443476.jpg'
 
 async function getWeather(event) {
@@ -23,7 +22,7 @@ async function getWeather(event) {
 
   //   humidityDiv.innerHTML = "Humidity: " + response.data.current.humidity;
 
-  weatherCondition.innerHTML = response.data.current.condition.text
+  weatherCondition.innerHTML = response.data.current.condition.text;
   // image wala kam
 
   let icon = response.data.current.condition.icon;

@@ -5,11 +5,11 @@
     font-family: 'Roboto', sans-serif;
 } */
 
-body{
-    margin: 0px;
+body {
+  margin: 0px;
 }
-.nav-bar > h1{
-    margin: 0px;
+.nav-bar > h1 {
+  margin: 0px;
 }
 
 /* body {
@@ -17,28 +17,28 @@ body{
 } */
 
 .nav-bar {
-    /* height: 100px; */
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+  /* height: 100px; */
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
-.nav-bar>h1 {
-    padding: 30px;
+.nav-bar > h1 {
+  padding: 30px;
 }
 
 /* isper lagani hy media querry */
 .body_padding_div {
-    /* margin-left: 20%;
+  /* margin-left: 20%;
     margin-right: 20%; */
-    /* overflow: visible; */
-    height: 100vh;
+  /* overflow: visible; */
+  height: 100vh;
 }
 
 .formm {
-    margin: 25px;
-    display: flex;
-    justify-content: center;
+  margin: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 /* .formm>button {
@@ -47,89 +47,84 @@ body{
 } */
 
 #city {
-    padding: 15px;
-    border-radius: 50px;
-    font-size: 18px;
+  padding: 15px;
+  border-radius: 50px;
+  font-size: 18px;
 }
 
 /* div{    border: 2px solid red  ;} */
 #tempC {
-    font-size: 150px;
-    font-weight: bold;
-    color: rgb(80, 77, 77);
-    margin-left: 10px;
+  font-size: 150px;
+  font-weight: bold;
+  color: rgb(80, 77, 77);
+  margin-left: 10px;
 }
 
 .main_container {
-    display: flex;
-    justify-content: center;
-    margin: 18px;
-    padding: 18px;
+  display: flex;
+  justify-content: center;
+  margin: 18px;
+  padding: 18px;
 }
-#weather_icon{
-    width: 172px;
+#weather_icon {
+  width: 172px;
 }
-.left, .right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.details{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 15px;
+.details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 
 .flex {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
-
-
-
-
 
 /* footer */
 .iconscontainer {
-    list-style: none;
-    display: flex;
-    fill: #ffffff;
-    margin: 15px;
-    /* width: 20px; */
+  list-style: none;
+  display: flex;
+  fill: #ffffff;
+  margin: 15px;
+  /* width: 20px; */
 }
 
 .icon {
-    padding-right: 13px;
-    fill: white;
-    width: 18px;
-    cursor: pointer;
+  padding-right: 13px;
+  fill: white;
+  width: 18px;
+  cursor: pointer;
 }
 
 .icon:hover {
-    fill: #fffc3a;
+  fill: #fffc3a;
 }
 
 footer {
-
-    /* position: sticky; */
-    /* position: absolute; */
-    /* display: hidden; */
-    display: flex;
-    justify-content: center;
-    /* bottom: 0; */
-    width: 100%;
-    height: 25px;
-    background: rgb(14, 154, 224);
-    padding: 18px 0px;
-    align-items: center;
+  /* position: sticky; */
+  /* position: absolute; */
+  /* display: hidden; */
+  display: flex;
+  justify-content: center;
+  /* bottom: 0; */
+  width: 100%;
+  height: 25px;
+  background: rgb(14, 154, 224);
+  padding: 18px 0px;
+  align-items: center;
 }
 
-
-footer>p {
-    color: white;
-    /* padding-top: 15px; */
-    /* padding-bottom: 15px; */
-    font-size: 20px;
+footer > p {
+  color: white;
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+  font-size: 20px;
 }

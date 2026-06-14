@@ -4,7 +4,7 @@ let resultDiv = document.querySelector("#result");
 function printTable(event) {
   event.preventDefault(); // page refresh na ho
 
-  resultDiv.innerHTML = ""
+  resultDiv.innerHTML = "";
 
   let tableOf = Number(myInput.value);
 
