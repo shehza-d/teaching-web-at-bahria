@@ -1,13 +1,31 @@
-const todoKaInput = document.querySelector("#todo-input")
-const ul = document.querySelector("#all-task")
+const todoKaInput = document.querySelector("#todo-input");
+const ul = document.querySelector("#all-task");
 
-function addTodo(event) {
-    event.preventDefault()
+const tasks = [
+  "complete weather app",
+  "bike safai",
+  "running",
+  "namaz",
+  "GYM",
+  "complete video lecture",
+];
 
-    ul.innerHTML += `<li>${todoKaInput.value}</li>`
-
+function showTask() {
+  for (let i = 0; i < tasks.length; i++) {
+    ul.innerHTML += `<li>${tasks[i]}</li>`;
+  }
 }
+showTask();
 
-function clearAllTodos(){
-    ul.innerHTML = ""
+// function addTodo(event) {
+//     event.preventDefault()
+
+//     const task = todoKaInput.value
+
+//     ul.innerHTML += `<li>${task}</li>`
+
+// }
+
+function clearAllTodos() {
+  ul.innerHTML = "";
 }

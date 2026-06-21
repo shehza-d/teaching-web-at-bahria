@@ -1,20 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-
+    <style>
+      #all-task {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    </style>
+  </head>
+  <body>
     <button onclick="clearAllTodos()">Clear All</button>
 
     <form onsubmit="addTodo(event)">
-        <input type="text" id="todo-input">
+      <input type="text" id="todo-input" />
     </form>
 
     <ul id="all-task"></ul>
 
     <script src="./app.js"></script>
-</body>
+  </body>
 </html>
