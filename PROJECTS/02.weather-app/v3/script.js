@@ -17,17 +17,9 @@ async function getWeather(event) {
 
     msg.innerHTML = "";
     tempResult.innerHTML = response.data.current.temp_c;
+    //
   } catch (error) {
     msg.innerHTML =
       error.response.data.error.message || "Unknown error, please try again!";
   }
 }
-
-// try {
-//   difjdifdjf;
-// } catch (error) {
-// } finally {
-//   console.log("hello");
-// }
-
-// https://vscodethemes.com/?language=javascript&sortBy=updatedAt&type=dark
