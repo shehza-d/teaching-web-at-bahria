@@ -9,13 +9,21 @@
         display: flex;
         flex-direction: column-reverse;
       }
+
+      .deleteBtn {
+        /* color: white;
+        but
+        background-color: rgb(245, 120, 120); */
+      }
     </style>
   </head>
   <body>
     <button onclick="clearAllTodos()">Clear All</button>
+    <br />
 
     <form onsubmit="addTodo(event)">
-      <input type="text" id="todo-input" />
+      <input required type="text" id="todo-input" />
+      <button>add</button>
     </form>
 
     <ul id="all-task"></ul>

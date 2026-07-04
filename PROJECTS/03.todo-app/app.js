@@ -11,21 +11,36 @@ const tasks = [
 ];
 
 function showTask() {
+  ul.innerHTML = "";
+
   for (let i = 0; i < tasks.length; i++) {
-    ul.innerHTML += `<li>${tasks[i]}</li>`;
+    ul.innerHTML += `<li>${tasks[i]}
+    <button onclick="deleteTodo(${i})">delete</button>
+    </li>`;
   }
 }
 showTask();
 
-// function addTodo(event) {
-//     event.preventDefault()
+function addTodo(event) {
+  event.preventDefault();
 
-//     const task = todoKaInput.value
+  const task = todoKaInput.value;
 
-//     ul.innerHTML += `<li>${task}</li>`
+  tasks.push(task);
 
-// }
+  showTask();
+
+  todoKaInput.value = "";
+}
+
+function deleteTodo(index) {
+  tasks.splice(index, 1);
+
+  showTask();
+}
 
 function clearAllTodos() {
-  ul.innerHTML = "";
+  tasks.length = 0; // array ko empty karna
+
+  showTask();
 }
