@@ -16,8 +16,8 @@
 
     <script>
       const supabaseClient = supabase.createClient(
-        "https://.supabase.co",
-        "",
+        "https", // project url
+        "sb_publishable", // publishable key
       );
 
       async function createNewUser(event) {
@@ -26,14 +26,11 @@
         const email = document.querySelector("#email-ka-input").value;
         const password = document.querySelector("#password-ka-input").value;
 
-        const response = await supabaseClient.auth.signUp({
+        await supabaseClient.auth.signUp({
           email: email,
           password: password,
         });
-
-        console.log("response: ", response);
       }
-      createNewUser();
     </script>
   </body>
 </html>
