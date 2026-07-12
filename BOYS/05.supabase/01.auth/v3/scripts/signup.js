@@ -1,8 +1,3 @@
-const supabaseClient = supabase.createClient(
-  "https://iedjcburzbpsvwkiegkd.supabase.co",
-  "sb_publishable_ijufavYdM1ThTDXY6AAhhQ_nQcx_2K5",
-);
-
 async function signup(event) {
   event.preventDefault();
 

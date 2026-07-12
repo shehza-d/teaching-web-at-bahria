@@ -1,10 +1,4 @@
-const supabaseClient = supabase.createClient(
-  "https://iedjcburzbpsvwkiegkd.supabase.co",
-  "sb_publishable_ijufavYdM1ThTDXY6AAhhQ_nQcx_2K5",
-);
-
 async function login(event) {
-  msg.innerHTML = "";
 
   event.preventDefault();
 
@@ -12,6 +6,7 @@ async function login(event) {
   const passwordInput = document.querySelector("#password-input");
   const msg = document.querySelector("#msg");
 
+  msg.innerHTML = "";
   //
 
   const response = await supabaseClient.auth.signInWithPassword({
@@ -23,5 +18,7 @@ async function login(event) {
 
   if (response.error) {
     msg.innerHTML = response.error.message;
+  } else {
+    window.location.href = "./profile.html";
   }
 }
