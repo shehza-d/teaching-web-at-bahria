@@ -5,7 +5,7 @@ async function getMyUser() {
     // user login hy
     window.location.href = "./pages/profile.html";
   } else {
-    // user login nhi hy
+    // user login NHI hy
     window.location.href = "./pages/login.html";
   }
 }

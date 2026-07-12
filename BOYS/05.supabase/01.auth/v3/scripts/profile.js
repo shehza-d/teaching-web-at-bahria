@@ -8,3 +8,12 @@ async function logout() {
     window.location.href = "./login.html";
   }
 }
+
+async function protectPage() {
+  const response = await supabaseClient.auth.getUser();
+
+  if (!response.data.user) {
+    window.location.href = "./login.html";
+  }
+}
+protectPage();
