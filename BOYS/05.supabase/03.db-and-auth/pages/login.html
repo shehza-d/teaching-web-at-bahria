@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+
+    <form onsubmit="login(event)">
+      <input type="email" id="email-input" placeholder="email" />
+      <input type="password" id="password-input" placeholder="password" />
+      <button>login</button>
+    </form>
+
+    <p id="msg" style="color: rgb(237, 107, 107)"></p>
+
+    <p>Don't have an account? <a href="./signup.html">Signup</a></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="../scripts/supabase.js"></script>
+    <script src="../scripts/login.js"></script>
+  </body>
+</html>
