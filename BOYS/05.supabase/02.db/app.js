@@ -19,14 +19,25 @@ async function addTodo(event) {
 }
 
 async function showTodo() {
-  const response = await supabaseClient.from("todos").select();
+  const response = await supabaseClient.from("todos").select("*");
+  // .eq("is_completed", true);// SEARCH
 
   ul.innerHTML = "";
 
   const todos = response.data;
 
   for (let i = 0; i < todos.length; i++) {
-    ul.innerHTML += `<li>${todos[i].todo}</li>`;
+    ul.innerHTML += `<li>${todos[i].todo} (${todos[i].is_completed})
+
+    <button onclick="deleteTodo(${todos[i].id})"> delete </button>
+
+    </li>`;
   }
 }
 showTodo();
+
+async function deleteTodo(id) {
+  const response = await supabaseClient.from("todos").delete().eq("id", id);
+
+  showTodo();
+}
